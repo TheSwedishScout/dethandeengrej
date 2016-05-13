@@ -1,0 +1,25 @@
+/*#css - main.css*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+#sitecontainer{
+	margin: 0 auto;
+	width: 70%;
+}
+#mainMenu ul{
+	overflow: hidden;
+	list-style: none;
+}
+#mainMenu ul li{
+	float: left;
+}
+#mainMenu ul li a{
+	display: block;
+	margin-right: 4px;
+	color: #fff;
+	background-color: #000;
+	padding: 3px; 
+
+}
