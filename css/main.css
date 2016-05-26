@@ -4,17 +4,23 @@
 	margin: 0;
 	border: 0;
 }
+body{
+	min-height: 100vh;
+}
 #sitecontainer{
 	margin: 0 auto;
 	width: 70%;
+
 }
+/*Header menyn*/
 #mainMenu{
 	background-color: #000;
 }
 #mainMenu ul{
+	margin: 0 auto;
+	width: 70%;
 	overflow: hidden;
 	list-style: none;
-	margin-left: 7px;
 }
 #mainMenu ul li{
 	float: left;
@@ -30,4 +36,21 @@
 }
 #mainMenu ul li a:hover{
 	background-color: #666;
+}
+/*main aria*/
+main{
+
+}
+
+/*Footer*/
+#siteFooter{
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	background: #666;
+}
+#siteFooter small{
+	float: right;
 }
